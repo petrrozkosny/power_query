@@ -1,0 +1,64 @@
+let // klicove slovo uvozujici zacatek prikazu
+
+  
+    #"tabulka zemi" = #table( // promenna typu tabula s deklaraci objektu typu table
+        //nazvy sloupcu jsou datovym typem text
+        {"Zeme","Rok","Pohlavi","Podil"}, // nazvy sloupcu
+        {
+            /*
+            Datove typy hodnot ve sloupcich:
+            "Czechia" = text
+            2017 = cele cislo
+            10578000 = cele cislo
+            "CZK" = text
+            true = boolean
+            */
+            {"Cesko",2017,"Muzi",49.16}, //hodnoty na 1. radku
+            {"Cesko",2018,"Muzi",49.20}, // hodnoty na 2. radku
+            {"Cesko",2019,"Muzi",49.24}, // hodnoty na 3. radku
+
+
+            {"Cesko",2017,"Zeny",50.84}, //hodnoty na 1. radku
+            {"Cesko",2018,"Zeny",50.80}, // hodnoty na 2. radku
+            {"Cesko",2019,"Zeny",50.76}, // hodnoty na 3. radku
+
+
+            {"Slovensko",2017,"Muzi",48.79}, //hodnoty na 1. radku
+            {"Slovensko",2018,"Muzi",48.80}, // hodnoty na 2. radku
+            {"Slovensko",2019,"Muzi",48.82}, // hodnoty na 3. radku
+
+
+            {"Slovensko",2017,"Zeny",51.21}, //hodnoty na 1. radku
+            {"Slovensko",2018,"Zeny",51.20}, // hodnoty na 2. radku
+            {"Slovensko",2019,"Zeny",51.18}, // hodnoty na 3. radku
+
+
+            {"Polsko",2017,"Muzi",48.40}, //hodnoty na 1. radku
+            {"Polsko",2018,"Muzi",48.40}, // hodnoty na 2. radku
+            {"Polsko",2019,"Muzi",48.40}, // hodnoty na 3. radku
+
+
+            {"Polsko",2017,"Zeny",51.60}, //hodnoty na 1. radku
+            {"Polsko",2018,"Zeny",51.60}, // hodnoty na 2. radku
+            {"Polsko",2019,"Zeny",51.60}, // hodnoty na 3. radku
+
+
+            {"Nemecko",2017,"Muzi",49.32}, //hodnoty na 1. radku
+            {"Nemecko",2018,"Muzi",49.33}, // hodnoty na 2. radku
+            {"Nemecko",2019,"Muzi",49.35}, // hodnoty na 3. radku
+
+
+            {"Nemecko",2017,"Zeny",50.68}, //hodnoty na 1. radku
+            {"Nemecko",2018,"Zeny",50.67}, // hodnoty na 2. radku
+            {"Nemecko",2019,"Zeny",50.65} // hodnoty na 3. radku
+
+
+
+
+
+
+
+        }
+    )
+in
+    #"tabulka zemi"
