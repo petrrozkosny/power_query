@@ -1,0 +1,60 @@
+let // klicove slovo uvozujici zacatek prikazu
+
+  
+    #"tabulka zemi" = #table( // promenna typu tabula s deklaraci objektu typu table
+        //nazvy sloupcu jsou datovym typem text
+        {"Zeme","Rok","Pohlavi","Podil"}, // nazvy sloupcu
+        {
+            /*
+            Datove typy hodnot ve sloupcich:
+            "Czechia" = text
+            2017 = cele cislo
+            10578000 = cele cislo
+            "CZK" = text
+            true = boolean
+            */
+            {"Cesko",2019,"0-14",15.6}, 
+            {"Nemecko",2019,"0-14",13.4}, 
+            {"Polsko",2019,"0-14",15.1}, 
+            {"Slovensko",2019,"0-14",15.5}, 
+
+            {"Cesko",2019,"15-24",9.6}, 
+            {"Nemecko",2019,"15-24",10.6}, 
+            {"Polsko",2019,"15-24",11}, 
+            {"Slovensko",2019,"15-24",11.2}, 
+          
+            {"Cesko",2019,"25-49",36.8}, 
+            {"Nemecko",2019,"25-49",32.4}, 
+            {"Polsko",2019,"25-49",36.9}, 
+            {"Slovensko",2019,"25-49",38.1}, 
+            
+
+            {"Cesko",2019,"50-64",19.3}, 
+            {"Nemecko",2019,"50-64",22.4}, 
+            {"Polsko",2019,"50-64",20.4}, 
+            {"Slovensko",2019,"50-64",20.2}, 
+
+
+
+            {"Cesko",2019,"65-79",14.8}, 
+            {"Nemecko",2019,"65-79",15.2}, 
+            {"Polsko",2019,"65-79",12.3}, 
+            {"Slovensko",2019,"65-79",11.8}, 
+
+
+            {"Cesko",2019,"80 +",4}, 
+            {"Nemecko",2019,"80 +",6}, 
+            {"Polsko",2019,"80 +",4.2}, 
+            {"Slovensko",2019,"80 +",3.2}
+
+
+     
+
+
+
+
+
+        }
+    )
+in
+    #"tabulka zemi"
